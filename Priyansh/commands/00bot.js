@@ -348,6 +348,10 @@ if ((event.body.toLowerCase() == "himmat he") || (event.body.toLowerCase() == "b
      return api.sendMessage("Andhe ho gaye bhari jawani me dikhta nahi din hai••😹🫶", threadID);
    };
 
+     if ((event.body.toLowerCase() == "good morning ") || (event.body.toLowerCase() == "gm")) {
+     return api.sendMessage("*𝐆𝐨𝐨𝐝 Morning ...!*✨🌻🍒☺🌅  *𝐑𝐚𝐝𝐡𝐞 𝐑𝐚𝐝𝐡𝐞...!*🦚🌺🍃🛐💗> ⃝🦚🪶 ।।श्री राधाकृष्ण।।𓀤Radha Krishna 🪈 <3", threadID);
+     };
+  
   if ((event.body.toLowerCase() == "🤨🤨") || (event.body.toLowerCase() == "😳😳") || (event.body.toLowerCase() == "😒😒") || (event.body.toLowerCase() == "😒😒😒") || (event.body.toLowerCase() == "😒😒😒😒😒")) {
      return api.sendMessage("ese na dekho kuch kuch hota hai babu🙈😘", threadID);
    };
